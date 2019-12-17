@@ -1,3 +1,7 @@
+- <img src="1.png" alt="1576619345632" style="zoom:25%;" />
+
+- <img src="2.png" alt="1576619381706" style="zoom:25%;" />
+
 - 下载线程使用ASyncTask实现，即DownloadTask类。
 
 - AsyncTask封装进了DownloadService类，DownloadService内部类DownloadBinder设置了启动asynctask的方法，`startDownload(String url)`,url即为下载链接。暂停下载，取消下载分别是binder的`pauseDownload``cancelDownload`方法，不需要参数。
